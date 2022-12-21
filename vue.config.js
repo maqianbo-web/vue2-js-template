@@ -63,6 +63,7 @@ const getDevServe = () => {
       });
     });
   }
+  return devServer;
 };
 
 const getChainWebpack = (config) => {
@@ -114,7 +115,7 @@ module.exports = {
   lintOnSave: !isProduction, // 生产环境禁用eslint-loader，可以加快生产构建
   parallel: true, // 是否为 Babel 或 TypeScript 使用 thread-loader，多线程打包
   css: {
-    requireModuleExtension: false, // 去除 样式文件的 .module 后缀
+    requireModuleExtension: true,
   },
   pluginOptions: {
     "style-resources-loader": {
