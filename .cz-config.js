@@ -22,11 +22,11 @@ module.exports = {
         customScope: '请输入修改范围(可选)',
         subject: '请简要描述提交(必填)',
         body: '请输入详细描述(可选)',
-        // footer: '请输入要关闭的issue(可选)',
+        footer: '请输入要关闭的issue(可选)',
         confirmCommit: '确认以上信息提交?(y/n)',
     },
     //跳过问题
-    skipQuestion: ['footer'],
+    skipQuestions: ['footer'],
     //subject文字长度默认是
     subjectLimit: 72,
 };
