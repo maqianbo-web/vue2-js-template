@@ -11,9 +11,9 @@ module.exports = {
         },
         { value: 'perf ', name: 'perf: 性能优化' },
         { value: 'test ', name: 'test: 增加测试' },
-        { value: 'chore ', name: 'chore: 构建过程或辅助功能的变动' },
-        { value: 'revert', name: 'revert: 回退' },
-        { value: 'build', name: 'build: 打包' },
+        // { value: 'chore ', name: 'chore: 构建过程或辅助功能的变动' },
+        // { value: 'revert', name: 'revert: 回退' },
+        // { value: 'build', name: 'build: 打包' },
     ],
     scopes: ['Other', 'Component', 'Views', 'Store', 'Router', 'Style', 'Utils'],
     //消息步骤
@@ -22,7 +22,7 @@ module.exports = {
         customScope: '请输入修改范围(可选)',
         subject: '请简要描述提交(必填)',
         body: '请输入详细描述(可选)',
-        footer: '请输入要关闭的issue(可选)',
+        // footer: '请输入要关闭的issue(可选)',
         confirmCommit: '确认以上信息提交?(y/n)',
     },
     //跳过问题
