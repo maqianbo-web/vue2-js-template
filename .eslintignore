@@ -1,4 +1,10 @@
+**/bin/*
 **/node_modules/*
 **/dist/*
-vue.config.js
-
+**/tests/*
+**/src/api/*
+**/*.js
+**/scirpts
+types.d.ts
+shims-tsx.d.ts
+shims-vue.d.ts

@@ -15,11 +15,11 @@ module.exports = {
         // { value: 'revert', name: 'revert: 回退' },
         // { value: 'build', name: 'build: 打包' },
     ],
-    scopes: ['Other', 'Component', 'Views', 'Store', 'Router', 'Style', 'Utils'],
+    scopes: ['Views', 'Component', 'Style', 'Utils', 'Store', 'Router', 'Other'],
     //消息步骤
     messages: {
         type: '请选择提交类型',
-        customScope: '请输入修改范围(可选)',
+        scope: '请选择修改范围(可选)',
         subject: '请简要描述提交(必填)',
         body: '请输入详细描述(可选)',
         // footer: '请输入要关闭的issue(可选)',
