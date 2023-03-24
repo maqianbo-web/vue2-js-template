@@ -19,5 +19,5 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-@import '../style/index.less';
+@import url('../style/index.less');
 </style>
