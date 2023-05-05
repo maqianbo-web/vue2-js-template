@@ -11,16 +11,16 @@
 
 <style lang="less" scoped>
 #app {
-    color: #2c3e50;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     text-align: center;
+    color: #2c3e50;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 #nav {
-    margin: 100px;
     padding: 30px;
+    margin: 100px;
 
     a {
         color: #2c3e50;
